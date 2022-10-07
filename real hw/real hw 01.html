@@ -3,16 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>real hw 01</title>
-    <h1>취업 정보 계정 만들기</h1>
-    <hr>
-
-    <span>* 필수 입력 항목</span>
-
-    <span>기본 정보</span>
-
 </head>
 <body>
-  <span>이름</span>
+    <h1>취업 정보 계정 만들기</h1>
+
+    <div>* 필수 입력 항목</div>
+
+    <br>
+
+
+    <div>기본 정보</div>
+
+    <br>
+
+    <p>이름* <input type="text" size="8"></p>
+    <p>이메일* <input type="email" size="15"placeholder="id@domain_name"></p>
+    <p>암호* <input type="password" size="12"></p>
+    <p>암호확인* <input type="password" size="12"></p>
+    <p>모바일 폰* <input type="tel" size="13"placeholder="010-0000-0000"></p>
+    <p>개인 홈페이지 <input type="url" size="30" placeholder="http://"></p>
+    <p>주소*<input type="text" size="30"></p>
+
+    <p>학 력</p>
+    <p>학교 명* <input type="text" size="12"></p>
+    <p>전 공* <input type="text" size="12"></p>
+    <p>졸업 여부* <select name="graduation" size="1">
+        <option value="1"> 졸업예정</option>
+        <option value="2" selected>---선택---</option>
+        <option value="3">졸업</option>
+    </select></p>
+    <p>졸업(예정)일 <input type="date"></p>
+
+    <p>업무 경력</p>
+
+    <p>근무업체명<input type="text" size="20>"></p>
+    <p>직위<input type="text" size="10"></p>
+    <p>담당업무<textarea cols="80" rows="10">이전 업체에서 담당한 업무를 기술하시오.</textarea></p>
+    <p>근무년수<input type="number" min="0.0" max="10.0" step="0.5">년</p>
+    <p>자기소개서</p>
+    <p>첨부 파일 <input type="file"></p>
+    <input type="submit" value="제출">
+    <input type="reset" value="재작성">
+
 
 </body>
+
+
 </html>
